@@ -5,7 +5,7 @@ voyage_speed = 38241
 wave_speed = 299792458 * 2.237
 
 days = int(input(ru_local.INPUT))
-dist_ml = start_dist + days * voyage_speed
+dist_ml = start_dist - days * voyage_speed * 24
 dist_km = dist_ml * 1.609
 dist_astro_unit = dist_ml * 1.076 * 10**(-8)
 wave_time = dist_ml / wave_speed
