@@ -1,8 +1,8 @@
 import ru_local
 
-start_dist = 16637000000
-voyage_speed = 38241
-wave_speed = 299792458 * 2.237
+start_dist = 16_637_000_000
+voyage_speed = 38_241
+wave_speed = 299_792_458 * 2.237
 
 days = int(input(ru_local.INPUT))
 dist_ml = start_dist - days * voyage_speed * 24
